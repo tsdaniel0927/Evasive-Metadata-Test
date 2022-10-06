@@ -1,0 +1,17 @@
+Test Pheme
+1 get_args.py 227 -> P
+2 Run Pheme5MainResponseWAE4Early.py for training model, save to pheme5.pt
+3 Run Pheme5MainResponseWAE4Early_test.py for testing original pheme dataset 
+4 Run pheme_data_prepare_our.py generating new dataset for testing.（220913__new_data already has one）
+5 Run Pheme5MainResponseWAE4Early_test_gen.py for testing the generated data
+6 Run Pheme5MainResponseWAE4Early_test_gen.py remove comment for line 36 and comment line 35 to get empty replies test result
+
+
+Test twitter 15&16
+1 get_args.py 227 -> T
+2 Run MainResponseWAE4Early.py for training the model and save to twitter1516.pt
+3 Run MainResponseWAE4Early_test.py for generating original dataset
+4 Run main_data_prepare_our.py for generating new test dataset（220913__new_data already has one）
+5 Run MainResponseWAE4Early_test_gen.py for testing the generated data
+6 Run MainResponseWAE4Early_test_gen.py remove the comment for line 54 and comment line 55 to get empty replies test result
+
